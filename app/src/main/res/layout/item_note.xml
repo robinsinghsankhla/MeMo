@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="10dp"
+    android:backgroundTint="@color/card_bg">
+    <View
+        android:id="@+id/priority_view"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="end"
+        android:layout_margin="10dp"
+        android:background="@drawable/lowpri_bg"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Titel"
+            android:textSize="25sp"
+            android:maxLines="1"
+            android:fontFamily="@font/italic_variable"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/text_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Titel asliehfdsnv sjeifdsn sfjeienf flisjilenf sjefildklfm mslejfkldffmseijfkdmf"
+            android:textSize="15sp"
+            android:fontFamily="@font/variable"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:text="15 May 2024"
+            android:textSize="20sp"
+            android:maxLines="1"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="@font/variable"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
